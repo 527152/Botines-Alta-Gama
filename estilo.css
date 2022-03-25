@@ -1,0 +1,173 @@
+.conteiner-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 110px;
+    background-color: black;
+    align-items: center;
+}
+
+.logo-img{
+    height: 100%;
+    
+    padding-left: 30px;
+    padding-bottom: 10px;
+    min-width: 15%;
+
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+
+}
+nav a{
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+    transition: background-color .5s;  
+}
+
+a:hover{
+    background-color: grey;
+}
+
+nav{
+    padding-right: 300px;
+    
+}
+
+@media (max-width:720px){
+    
+    
+    
+    footer{
+        position: relative;
+        top: 1600px;
+        width: 100%;
+    }
+    
+    .conteiner-footer{
+        display:none !important;
+       
+        
+    }
+    footer{
+    width: 100% !important;
+    }
+    footer hr{
+        width: 70%;
+    }
+
+    .conteiner-footer1 div{
+        margin: 12px -3px;
+        text-align: center;
+    
+        
+
+    }
+    .logo-img{
+        margin: auto;
+    }
+
+
+    .conteiner-section{
+        width: 100% !important;
+    }
+    .conteiner-section hr{
+        width: 70%;
+    }
+
+}
+
+@media (min-width:720px){
+
+    .conteiner-footer1{
+         display:none !important;
+    }
+}
+
+.conteiner-section{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 100px;
+    height: auto;
+}
+
+.conteiner-section hr{
+    position: relative;
+    bottom: -15px;
+}
+.conteiner-section h1{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.flex-conteiner{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+.flex-conteiner div{
+    margin: auto;
+    text-align: center;
+    min-width: 330px;
+    height: 400px;
+    
+}
+
+.flex-conteiner div img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 20px 0px 20px gray;
+    border-radius: 10px;
+    
+
+}
+footer{
+    width: 70%;
+    margin: auto;
+    
+    
+    
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: -8px;
+
+}
+.conteiner-footer{
+    display: flex;
+    padding-top: 40px;
+    
+
+
+}
+b{
+    font-size: 20px;
+    
+}
+
+.columna1 div{
+    height: 50px;
+    margin-right: 100px;
+    margin-left: 50px;
+    padding-bottom: 15px;
+    
+    
+    
+}
+.columna2 div{
+    height: 50px;   
+    padding-bottom: 15px;
+    
+    
+}
